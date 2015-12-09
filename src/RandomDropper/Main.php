@@ -11,7 +11,7 @@
  * @version 1.0.0
  * @link https://github.com/xionbig/LuckyBlock
  */
-namespace LuckyBlock;
+namespace RandomDropper;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -52,6 +52,7 @@ class Main extends PluginBase implements Listener{
                 "item4" => [],
                 "item5" => [],
                 "Enabled/Disabled" => [],
+                ]);
 
         $this->setup->save();
 
